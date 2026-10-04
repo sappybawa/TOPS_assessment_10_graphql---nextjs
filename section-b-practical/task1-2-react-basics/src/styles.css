@@ -1,0 +1,14 @@
+body { font-family: system-ui, sans-serif; background: #f6f7fb; margin: 0; }
+main { max-width: 960px; margin: 0 auto; padding: 24px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+.card { background: #fff; border-radius: 12px; padding: 16px; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+.card h3 { margin: 0 0 4px; }
+.category { color: #666; margin: 0; }
+.price { font-weight: 700; font-size: 1.2rem; }
+.stock { font-size: .85rem; }
+.card--unavailable { opacity: .6; }
+button { background: #e8590c; color: #fff; border: 0; padding: 8px 14px; border-radius: 8px; cursor: pointer; }
+button:disabled { background: #bbb; cursor: not-allowed; }
+.added { color: #2b8a3e; font-weight: 700; }
+.restaurants li { margin: 6px 0; }
+.error { background: #ffe3e3; color: #c92a2a; padding: 10px; border-radius: 8px; }
